@@ -8,20 +8,22 @@ public class Atividade01 {
 		
 		Scanner tec = new Scanner(System.in);
 		int num, soma = 0;
-		System.out.println("digite um número: ");
+		System.out.println("Digite um número: ");
 		num = tec.nextInt();
 		soma = soma + num;
 		System.out.println(soma);
 		
-		System.out.println("digite um numero: ");
+		System.out.println("Digite um número: ");
 		num = tec.nextInt();
 		soma = soma + num;
 		System.out.println(soma);
 		
-		System.out.println("digite um numero: ");
+		System.out.println("Digite um número: ");
 		num = tec.nextInt();
 		soma = soma + num;
 		System.out.println(soma);
+		
+		
 		
 		
 		
