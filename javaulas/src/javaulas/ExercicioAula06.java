@@ -27,7 +27,7 @@ public class ExercicioAula06 {
 			System.out.println("os números são iguais.");
 		}
 		System.out.println("...........exercicio 03............");	
-	
+		
 	
 	
 	

@@ -6,23 +6,37 @@ public class Aula07Exercicios {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Atividade 04"); //ultilizando "do/while"
-
-		Scanner tec = new Scanner (System.in);
+	Scanner tec = new Scanner (System.in);
+		
+	System.out.println(".............Atividade 04............."); //ultilizando "do/while"
 		double nota1, nota2; 
 		do {
-			System.out.println("Digite sua primeira nota: ");
-			nota1 = tec.nextDouble();
+		System.out.println("Digite sua primeira nota: ");
+		nota1 = tec.nextDouble();
 			
 		}while (nota1 < 0 || nota1 > 10);
 		do {
-			System.out.println("Digite sua segunda nota: ");
-			nota2 = tec.nextDouble();	
+		System.out.println("Digite sua segunda nota: ");
+		nota2 = tec.nextDouble();	
 		}while (nota2 < 0 || nota2 > 10);
 		double media = (nota1 + nota2) / 2;
 		System.out.println("Sua média é: " + media);
 		
 		
+	System.out.println("");
+	System.out.println(".............Exercicio 1.............");
+		String opcao;
+		do { 
+			System.out.println("Olá, Mundo!");
+			System.out.println("Deseja exibir o texto novamente?");
+			opcao = tec.nextLine();
+		}while (opcao.contains("sim"));
+		
+	System.out.println("");
+	System.out.println(".............Exercicio 2.............");
+		for (int i=0; i <= 100; i+=10) {
+			System.out.println(i);
+		}
 		
 		
 		
