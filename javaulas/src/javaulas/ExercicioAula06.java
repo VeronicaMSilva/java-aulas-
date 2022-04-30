@@ -84,16 +84,31 @@ public class ExercicioAula06 {
 				System.out.println(pN/pS);
 		}
 		*/
+		
 		System.out.println("...........exercicio 06............");
 		Scanner tectec = new Scanner(System.in);
 		System.out.println("Digite o ano que você nasceu: ");
 		int ano = tectec.nextInt();
 		int idade = (2022 - ano);
-		System.out.println(idade);
+		if ((idade >= 16 && idade < 18)||(idade >=70)){
+			System.out.println("Sua idade é: " + idade + " Logo, seu voto é opcional");
+		} else if (idade >= 18 && idade <70){
+			System.out.println("Sua idade é: " + idade + " Logo, seu voto é obrigatorio");
+		} else {
+			System.out.println("Sua idade é: " + idade + " Logo, você não pode votar");
+		}
 		
-
-	
-	
+		//System.out.println("...........exercicio 06............");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	
 	
 	
