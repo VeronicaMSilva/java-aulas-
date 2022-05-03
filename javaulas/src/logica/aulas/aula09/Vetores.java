@@ -22,7 +22,7 @@ public class Vetores {
 		for (int i=0; i < qtdFrutas; i++) {
 			System.out.println(listaFrutas[i]);
 		}
-		*/
+		/*
 		//for indexado
 		int[] numeros = {0, 5, 11, 4};
 		for (int i=0; i<numeros.length; i++) {
@@ -38,11 +38,18 @@ public class Vetores {
 			System.out.println("Valor: "+numero);
 		}
 		
-		
-		
-		
-		
-		
+		*/
+		System.out.println("=========Atividade 1==========");
+		String[] nomes = {"João", "Verônica", "Ana", "Jaiane"};
+			
+		for (int t = 0; t < nomes.length - 1; t++) {
+			String nome = nomes[t];
+			
+			for (int i = t + 1; i < nomes.length; i++)
+			System.out.println(nome + "/" + nomes[i] );
+		}
+			
+			
 		
 		
 		
