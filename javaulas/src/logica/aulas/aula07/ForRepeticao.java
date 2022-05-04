@@ -6,13 +6,13 @@ public class ForRepeticao {
 
 	public static void main(String[] args) {
 		
-	
+		Scanner tec = new Scanner(System.in);
+		
 		for (int cc=0; cc < 3; cc++) {
 			System.out.println("Cambalhota " + cc); 
 		}
 		
 		System.out.println("Atividade 05");
-		Scanner tec = new Scanner (System.in); 
 		System.out.println("Digite a quantidade de cambalhotas desejadas: ");
 		int camb = tec.nextInt();
 			for (int i=0; i < camb; i++) {
@@ -27,12 +27,6 @@ public class ForRepeticao {
 				System.out.printf("%d, %d \n", i,j);
 			}
 		}
-		
-		
-	
-		
-		
-		
 
 	}
 
